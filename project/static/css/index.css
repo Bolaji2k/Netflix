@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+
+body {
+    background-color: black;
+    display: flex;
+    color: white;
+}
+
+#logo {
+    width: 9.25rem;
+    height: 2.5rem;
+    color: rgb(229, 9, 20);
+    fill: currentColor;
+    display: block;
+}
+
+#content1 {
+    margin: 250px 0;
+}
+
+#head {
+    height: 200px;
+    padding: 30px 150px;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#head1 {
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-left: 150px;
+}
+
+#content {
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    background-color: black;
+}
+
+#content img {
+    opacity: 0.5;
+    position: absolute;
+    top: -250px;
+}
+
+.gradient {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0) 90%);
+    position: absolute;
+    height: 250px;
+    width: 100%;
+}
+
+#movies {
+    position: absolute;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    left: 50%;
+    right: 50%;
+    gap: 15px;
+}
+
+#movies img {
+    width: 260px;
+    height: 420px;
+    border-radius: 10px;
+    border: 1px solid rgba(240, 231, 231, 0.212);
+}
+
+#movies img:hover {
+    opacity: 0.5;
+}
+
+#movies a:hover {
+    outline: 5px solid rgba(255, 255, 255, 0.829);
+    outline-offset: 3px;
+    border-radius: 10px;
+}
+
+.user {
+    display: flex;
+    gap:5px;
+    align-items: center;    
+}
+
+#right_head a {
+    font-size: 14px;
+    background-color: rgb(229, 9, 20);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+#right_head {
+    display: inline;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+#movie {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+}
+
+#movie img {
+    width: 1200px;
+    height: 600px;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+#content2 p {
+    position: absolute;
+    width: 800px;
+    top: 600px;
+    z-index: 1000;
+    padding: 10px 50px;
+}
+
+#content2 {
+    width: 100%;
+}
+
+#head2 {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+#content0 {
+    margin: 250px 150px;
+}
